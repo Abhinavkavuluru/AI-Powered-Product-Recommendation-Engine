@@ -1,0 +1,17 @@
+{
+    "short_name": "App",
+    "name": "AI Product Recommendations",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "16x16 32x32 48x48",
+        "type": "image/x-icon"
+      }
+    ],
+    "start_url": ".",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#000000"
+  }
+  
