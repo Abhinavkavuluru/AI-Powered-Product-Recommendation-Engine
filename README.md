@@ -14,11 +14,6 @@
 
 ---
 
-## 🎯 **Demo**
-
-[View Live Demo](https://your-demo-link.com)
-
----
 
 ## 🛠 **Technology Stack**
 
@@ -101,46 +96,6 @@
     ```
 
    The frontend will be available at `http://localhost:3000`.
-
----
-
-## 🛠 **API Documentation**
-
-### **GET /api/products**
-- **Description**: Fetches the complete product catalog.
-- **Response**: A list of all products, including details like `id`, `name`, `category`, `price`, `brand`, etc.
-
-### **POST /api/recommendations**
-- **Description**: Generates personalized product recommendations based on user preferences and browsing history.
-- **Request Body**:
-    ```json
-    {
-      "preferences": {
-        "priceRange": "0-50",
-        "categories": ["Electronics", "Clothing"],
-        "brands": ["Nike", "Apple"]
-      },
-      "browsing_history": ["product123", "product456"]
-    }
-    ```
-- **Response**:
-    ```json
-    {
-      "recommendations": [
-        {
-          "product": {
-            "id": "product123",
-            "name": "Ultra-Comfort Running Shoes",
-            "category": "Footwear",
-            "price": 89.99,
-            "brand": "Nike"
-          },
-          "explanation": "These shoes are within your preferred price range and match your browsing history.",
-          "confidence_score": 9
-        }
-      ]
-    }
-    ```
 
 ---
 
